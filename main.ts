@@ -5,9 +5,11 @@
  * This program ...
 */
 
+// our variable far temperature
+let temperature: number
+
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
-basic.pause(1000)
 
 
-basic.showString('Hello, World!')
+input.temperature()
