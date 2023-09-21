@@ -5,8 +5,14 @@
  * This program tells displays temperature on micro bit
 */
 
+// our variable for temperature
+let temperature: number
+
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 basic.pause(1000)
 
-input.buttonIsPressed(Button.A)
+input.onButtonPressed(Button.A, function () {
+    temperature = input.temperature()
+    basic.showNumber(temperature)
+})
