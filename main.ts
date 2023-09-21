@@ -8,6 +8,8 @@
 // our variable for temperature
 let temperature: number
 
+'ts-standard --fix'
+
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 basic.pause(1000)
