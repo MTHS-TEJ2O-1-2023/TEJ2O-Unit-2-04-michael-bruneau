@@ -17,4 +17,3 @@ while True:
         temperature = input.temperature()
         display.show("The Temperature is")
         display.show(str(temperature))
-
