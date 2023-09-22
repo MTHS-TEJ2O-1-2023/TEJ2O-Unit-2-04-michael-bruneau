@@ -2,7 +2,7 @@
  *
  * Created by: Michael B
  * Created on: Sep 2023
- * This program tells displays temperature on micro bit
+ * This program displays temperature on micro bit
 */
 
 // our variable for temperature
